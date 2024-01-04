@@ -1,5 +1,5 @@
 # Modelo de site para restaurante one page
-
+![Alt ou título da imagem](https://media.licdn.com/dms/image/D4E22AQErgyY7C6QbBg/feedshare-shrink_1280/0/1704400617718?e=1707350400&v=beta&t=ToO7FBuN7n1uPQkIpk1NK1Hbb53RShwOXFjUQ9BREjk)
 ### Este projeto é um modelo de site para restaurante one page, desenvolvido com as seguintes tecnologias:
 
 - **Next.js** é um framework web React que permite criar aplicativos web estáticos e server-side rendered.
