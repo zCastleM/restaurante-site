@@ -6,6 +6,7 @@ import { motion } from "framer-motion"
 import * as React from "react"
 import { Navbar } from "@/components/component/navbar"
 import Template from "./template"
+import Image from "next/image"
 
 export default function Component() {
 
@@ -14,7 +15,7 @@ export default function Component() {
   <Navbar />
   
     <Template><section>  
-      <img
+      <Image
         alt="Interior do restaurante"
         className="w-full h-auto object-cover"
         height="600"
@@ -35,7 +36,7 @@ export default function Component() {
           </p>
           <Button>conheça nosso cardápio</Button>
         </div>
-        <img
+        <Image
           alt="Pratos do cardápio"
           className="w-full h-auto object-cover rounded-lg"
           height="300"
@@ -53,7 +54,7 @@ export default function Component() {
         <h2 className="text-3xl font-bold text-center mb-8">descubra nossos destaques</h2>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           <div>
-            <img
+            <Image
               alt="Pratos Tradicionais"
               className="w-full h-auto object-cover rounded-lg mb-4"
               height="200"
@@ -72,7 +73,7 @@ export default function Component() {
             <Button>Saiba mais</Button>
           </div>
           <div>
-            <img
+            <Image
               alt="Eventos Especiais"
               className="w-full h-auto object-cover rounded-lg mb-4"
               height="200"
@@ -91,7 +92,7 @@ export default function Component() {
             <Button>Saiba mais</Button>
           </div>
           <div>
-            <img
+            <Image
               alt="Ambiente Aconchegante"
               className="w-full h-auto object-cover rounded-lg mb-4"
               height="200"
